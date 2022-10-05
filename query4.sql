@@ -1,5 +1,6 @@
 /* Cantidad de productos comprados por cliente en el mes actual */
-use duxdb;
+use duxdbentrega;
+
 SELECT 
     cliente.nombre,
     producto.nombre,

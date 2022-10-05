@@ -1,5 +1,6 @@
 /* Rubros que no tienen ventas en los últimos 2 meses */
-use duxdb;
+use duxdbentrega;
+
 SELECT 
     rubro.rubro
 FROM

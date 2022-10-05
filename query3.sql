@@ -1,5 +1,6 @@
 /* Cantidad de ventas por producto */
-use duxdb;
+use duxdbentrega;
+
 SELECT 
     nombre, SUM(cantidad) AS cantidad_ventas
 FROM

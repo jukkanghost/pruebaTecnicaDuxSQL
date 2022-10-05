@@ -1,5 +1,6 @@
 /* Ventas que tienen al menos un producto del rubro "bazar" */
-use duxdb;
+use duxdbentrega;
+
 SELECT 
     venta.id_venta, producto.nombre, rubro.rubro
 FROM

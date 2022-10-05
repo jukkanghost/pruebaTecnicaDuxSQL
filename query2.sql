@@ -1,5 +1,6 @@
 /* Monto total vendido por cliente */
-use duxdb;
+use duxdbentrega;
+
 SELECT 
     nombre, SUM(cantidad * precio_unitario) AS total
 FROM
